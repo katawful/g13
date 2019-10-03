@@ -50,8 +50,10 @@ namespace G13 {
 		(KP1)(KP2)(KP3)(KP0)(KPDOT)											\
 		(LEFT)(RIGHT)(UP)(DOWN)												\
 		(PAGEUP)(PAGEDOWN)(HOME)(END)(INSERT)(DELETE)						\
-		(F13)(F14)(F15)(F16)(F17)(F18)(F19)(F20)(F21)(F22)(F23)(F24)
-
+		(F13)(F14)(F15)(F16)(F17)(F18)(F19)(F20)(F21)(F22)(F23)(F24)        \
+/*! Keys F20 and F24 output the same value (\u0000) and are not really usable
+ * I do not know what the issue is.
+ */
 
 // *************************************************************************
 
